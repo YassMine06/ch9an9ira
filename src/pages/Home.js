@@ -36,7 +36,7 @@ const Home = () => {
     // alert('Produit ajouté au panier!');
   };
 
-  return (<>
+  return (<div className='bodyy'>
     <div className="home-container">
       <header className="hero-section">
         <div className="hero-overlay"></div>
@@ -81,7 +81,7 @@ const Home = () => {
         </div>
       </section>
       <Footer />
-    </div></>
+    </div></div>
   );
 };
 

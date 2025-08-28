@@ -5,13 +5,20 @@
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
-
+.bodyy{
+  
+  background: url("/public/images/backgroung.png");
+  background-attachment: fixed;  /* le secret */
+  background-repeat: no-repeat;
+  background-size: cover; /* pour couvrir tout l'écran */
+  background-position: center;
+}
 /* Container général */
 .home-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* background: url("/public/images/backgroung.png") center/cover no-repeat; */
+
 }
 
 /* Hero Section */
