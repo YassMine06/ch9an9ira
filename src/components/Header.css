@@ -1,0 +1,160 @@
+/* =========================
+   HEADER STYLING
+========================= */
+.site-header {
+  width: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 50, 0.8), rgba(0, 50, 150, 0.9));
+  padding: 30px 0; /* Hauteur par défaut */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+/* Logo stylisé */
+.site-logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #fff;
+  /* text-transform: uppercase; */
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: font-size 0.3s ease;
+}
+
+
+/* Navbar alignée à droite */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 10px 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover navbar avec couleur thème bleu et léger effet */
+.header-nav a:hover {
+  background-color:rgb(16, 16, 106); /* couleur thème bleu */
+  color: #cbd5e1; /* légèrement clair sur bleu */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* =========================
+   RESPONSIVE MOBILE
+========================= */
+@media screen and (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .site-logo {
+    font-size: 2rem;
+  }
+
+  .header-nav {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-nav a {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+}
+
+/* =========================
+   CART ICON
+========================= */
+/* .cart-icon {
+  position: relative;
+  text-decoration: none;
+  font-size: 900px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+} */
+
+
+/* Quand le header devient fixed */
+.site-header {
+  width: 100%;
+  background: linear-gradient(135deg, rgb(16, 16, 106), rgb(134, 165, 227));
+  padding: 40px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+  position: relative; /* Normal */
+  z-index: 1000;
+}
+
+.site-header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+
+.cart-icon {
+  position: relative;
+  color: #fff;          /* couleur de l’icône */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon svg {
+  vertical-align: middle; 
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
