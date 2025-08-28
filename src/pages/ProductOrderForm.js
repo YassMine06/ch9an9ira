@@ -22,7 +22,7 @@ const ProductOrderForm = ({ product, onCancel }) => {
       phone: formData.phone,
       address: formData.address,
       products: `${product.name} (x1) - ${product.price.toFixed(2)} MAD`,
-      total: product.price.toFixed(2),
+      total: product.price.toFixed(2) ,
     };
 
     emailjs.send(
