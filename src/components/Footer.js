@@ -36,6 +36,9 @@ export default function Footer() {
                   <a href="https://www.etsy.com" target="_blank" rel="noopener noreferrer">
                     <img src="/images/sns/etsy.png" alt="Etsy" className="social-icon" title="Etsy"/>
                   </a>
+                  <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
+                    <img src="/images/sns/whatsapp.png" alt="Etsy" className="social-icon" title="Whatsapp"/>
+                  </a>
                 </div>
             </div>
         </div>
