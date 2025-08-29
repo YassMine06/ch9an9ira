@@ -36,7 +36,7 @@
 
 /* Navbar alignée à droite */
 .site-header{
-  padding: 20px 0 ;
+  padding: 10px 0 ;
 }
 .header-nav {
   display: flex;
@@ -68,7 +68,8 @@
 @media screen and (max-width: 768px) {
   .header-container {
     flex-direction: column;
-    gap: 15px;
+    gap: 8px;
+    padding-bottom: 0px;
   }
 
   .site-logo {
@@ -79,11 +80,13 @@
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 0px;
   }
 
   .header-nav a {
     font-size: 1rem;
     padding: 8px 12px;
+    padding-bottom: 0px;
   }
 }
 
