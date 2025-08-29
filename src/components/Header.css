@@ -35,6 +35,9 @@
 
 
 /* Navbar alignée à droite */
+.site-header{
+  padding: 20px 0 ;
+}
 .header-nav {
   display: flex;
   align-items: center;
