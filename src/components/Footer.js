@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Section Gauche */}
         <div className="footer-section">
           <p className="footer-contact">
-            E-mail : <a href="mailto:matjar.chaoui@gmail.com">matjar.chaoui@gmail.com</a>
+            E-mail : <a href="mailto:matjar.chaoui@gmail.com">ch9an9ira@gmail.com</a>
           </p>
           <p className="footer-contact">
             Tél : <a href="tel:+212667219566">+212 667 219 566</a>
