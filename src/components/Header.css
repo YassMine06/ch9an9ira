@@ -69,11 +69,11 @@
   }
 
   .site-logo {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .header-nav {
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
   }
